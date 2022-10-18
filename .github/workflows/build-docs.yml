@@ -11,10 +11,6 @@ jobs:
   publish:
     runs-on: [self-hosted, func-tester-aarch64]
     steps:
-      - name: Set Swap Space
-        uses: pierotofy/set-swap-space@master
-        with:
-          swap-size-gb: 10
       - name: Check out docs repo
         uses: actions/checkout@v3
         with:
