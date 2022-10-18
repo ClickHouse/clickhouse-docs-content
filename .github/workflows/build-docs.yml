@@ -11,6 +11,10 @@ jobs:
   publish:
     runs-on: [self-hosted, func-tester-aarch64]
     steps:
+      - name: Set Swap Space
+        uses: pierotofy/set-swap-space@master
+        with:
+          swap-size-gb: 10
       - name: Check out docs repo
         uses: actions/checkout@v3
         with:
@@ -29,9 +33,10 @@ jobs:
       # Install and build Docusaurus website
       - name: Build Docusaurus website
         run: |
+          export NODE_OPTIONS="--max_old_space_size=4096"
           npm install -g yarn
           yarn install
-          yarn run build
+          yarn build
       - name: Deploy to GitHub Pages
         if: success()
         uses: peaceiris/actions-gh-pages@v3
