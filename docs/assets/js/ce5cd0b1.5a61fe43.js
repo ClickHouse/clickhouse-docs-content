@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknew_nav_docusaurus_2_2=self.webpackChunknew_nav_docusaurus_2_2||[]).push([[36725],{82814:e=>{e.exports=JSON.parse('{"title":"About Us","slug":"/en/about-us","permalink":"/docs/en/about-us","navigation":{"previous":{"title":"Roadmap","permalink":"/docs/en/whats-new/roadmap"},"next":{"title":"What is ClickHouse?","permalink":"/docs/en/intro"}}}')}}]);
