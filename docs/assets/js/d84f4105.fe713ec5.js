@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknew_nav_docusaurus_2_2=self.webpackChunknew_nav_docusaurus_2_2||[]).push([[62264],{1026:e=>{e.exports=JSON.parse('{"title":"FAQ","slug":"/en/faq","permalink":"/docs/en/faq","navigation":{"previous":{"title":"Compression","permalink":"/docs/en/native-protocol/compression"},"next":{"title":"Billing","permalink":"/docs/en/faq/billing"}}}')}}]);
