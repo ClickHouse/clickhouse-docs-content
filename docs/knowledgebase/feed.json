@@ -10,7 +10,7 @@
             "url": "https://clickhouse.com/docs/knowledgebase/are_materialized_views_inserted_asynchronously",
             "title": "Are Materialized Views inserted synchronously?",
             "summary": "Question: When a source table has new rows inserted into it, those new rows are also sent to all of the materialized views of that source table. Are inserts into Materialized Views performed synchronously, meaning that once the insert is acknowledged successfully from the server to the client, it means that all Materialized Views have been fully updated and available for queries?",
-            "date_modified": "2023-03-21T20:59:31.000Z",
+            "date_modified": "2023-03-22T17:26:21.000Z",
             "tags": []
         },
         {
@@ -19,7 +19,7 @@
             "url": "https://clickhouse.com/docs/knowledgebase/async_vs_optimize_read_in_order",
             "title": "Synchronous data reading",
             "summary": "The new setting allow_asynchronous_read_from_io_pool_for_merge_tree allows the number of reading threads (streams) to be higher than the number of threads in the rest of the query execution pipeline.",
-            "date_modified": "2023-03-21T20:59:31.000Z",
+            "date_modified": "2023-03-22T17:26:21.000Z",
             "tags": []
         },
         {
@@ -28,7 +28,7 @@
             "url": "https://clickhouse.com/docs/knowledgebase/calculate-pi-using-sql",
             "title": "It's Pi Day! Let's calculate pi using SQL",
             "summary": "Happy Pi Day! We thought it would be fun to calculate pi using SQL queries in ClickHouse. Here is what we came up with so far...",
-            "date_modified": "2023-03-21T20:59:31.000Z",
+            "date_modified": "2023-03-22T17:26:21.000Z",
             "tags": []
         },
         {
@@ -37,7 +37,7 @@
             "url": "https://clickhouse.com/docs/knowledgebase/columnar-database",
             "title": "What is a columnar database?",
             "summary": "A columnar database stores the data of each column independently. This allows reading data from disk only for those columns that are used in any given query.",
-            "date_modified": "2023-03-21T20:59:31.000Z",
+            "date_modified": "2023-03-22T17:26:21.000Z",
             "tags": []
         },
         {
@@ -46,7 +46,7 @@
             "url": "https://clickhouse.com/docs/knowledgebase/configure-a-user-setting",
             "title": "How to configure a setting for a user",
             "summary": "There are several ways to define a setting for a user in ClickHouse, depending on the use case and how long you want the setting to be configured. Let's look at a few scenarios...",
-            "date_modified": "2023-03-21T20:59:31.000Z",
+            "date_modified": "2023-03-22T17:26:21.000Z",
             "tags": []
         },
         {
@@ -55,7 +55,7 @@
             "url": "https://clickhouse.com/docs/knowledgebase/connection_timeout_remote_remoteSecure",
             "title": "Code: 279. DB::NetException: All connection tries failed.",
             "summary": "When using the `remote` or `remoteSecure` table functions on a node that is located more than 100ms (latency wise) away from the remote node, it is common to encounter the following timeout error.",
-            "date_modified": "2023-03-21T20:59:31.000Z",
+            "date_modified": "2023-03-22T17:26:21.000Z",
             "tags": []
         },
         {
@@ -64,7 +64,7 @@
             "url": "https://clickhouse.com/docs/knowledgebase/dbms-naming",
             "title": "What does “ClickHouse” mean?",
             "summary": "It’s a combination of **Click**stream and Data ware**House**. It comes from the original use case at Yandex.Metrica, where ClickHouse was supposed to keep records of all clicks by people from all over the Internet, and it still does the job.",
-            "date_modified": "2023-03-21T20:59:31.000Z",
+            "date_modified": "2023-03-22T17:26:21.000Z",
             "tags": []
         },
         {
@@ -73,7 +73,7 @@
             "url": "https://clickhouse.com/docs/knowledgebase/delete-old-data",
             "title": "Is it possible to delete old records from a ClickHouse table?",
             "summary": "The short answer is “yes”. ClickHouse has multiple mechanisms that allow freeing up disk space by removing old data. Each mechanism is aimed for different scenarios.",
-            "date_modified": "2023-03-21T20:59:31.000Z",
+            "date_modified": "2023-03-22T17:26:21.000Z",
             "tags": []
         },
         {
@@ -82,7 +82,7 @@
             "url": "https://clickhouse.com/docs/knowledgebase/exception-too-many-parts",
             "title": "DB::Exception: Too many parts (600). Merges are processing significantly slower than inserts",
             "summary": "The main requirement about inserting into Clickhouse: you should never send too many INSERT statements per second. Ideally - one insert per second / per few seconds.",
-            "date_modified": "2023-03-21T20:59:31.000Z",
+            "date_modified": "2023-03-22T17:26:21.000Z",
             "tags": []
         },
         {
@@ -91,7 +91,7 @@
             "url": "https://clickhouse.com/docs/knowledgebase/execute-system-queries-in-cloud",
             "title": "Execute SYSTEM statements on all nodes in ClickHouse Cloud",
             "summary": "In order to execute the same query on all nodes of a ClickHouse Cloud service, we can use clusterAllReplicas.",
-            "date_modified": "2023-03-21T20:59:31.000Z",
+            "date_modified": "2023-03-22T17:26:21.000Z",
             "tags": []
         }
     ]
