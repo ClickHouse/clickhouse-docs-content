@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunknew_nav_docusaurus_2_2=self.webpackChunknew_nav_docusaurus_2_2||[]).push([[70874],{74796:e=>{e.exports=JSON.parse('{"permalink":"/docs/knowledgebase/page/4","page":4,"postsPerPage":10,"totalPages":4,"totalCount":37,"previousPage":"/docs/knowledgebase/page/3","blogDescription":"Knowledge Base","blogTitle":"ClickHouse Knowledge Base"}')}}]);
